@@ -22,3 +22,13 @@ print()
     
 for e in range(0,10,2): # 0 2 4 6 8
     print(e, end=" ")
+    
+    
+"""
+TypeError
+
+duration = 10
+for counter in duration:
+    print(counter)
+    
+"""
