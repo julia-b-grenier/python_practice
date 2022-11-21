@@ -16,6 +16,10 @@ class Student:
         
         Student.num_students += 1
         
+    def __str__(self):
+        
+        return self.name + ", ID: " + str(self.mcgillID)
+        
     def display_info(self):
         print("Name:", self.name)
         print("ID:", self.mcgillID)
