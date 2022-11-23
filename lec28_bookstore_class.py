@@ -77,6 +77,12 @@ class Bookstore:
                 cheapest_book = book
                 
         return cheapest_book
+    
+    def contains(self, book_to_find):
+        for isbn in self.books:
+            if isbn == book_to_find.isbn:
+                return True
+        return False
             
                 
         
