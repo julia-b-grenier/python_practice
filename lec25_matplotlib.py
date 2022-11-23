@@ -25,6 +25,6 @@ plt.show()
 
 mtl_pop = [1293992, 1080545, 1015420, 1016376, 1620693, 1704694]
 years = ['1966', '1976', '1986', '1996', '2006', '2016']
-plt.bar(years, mtl_pop)
+plt.bar(years, mtl_pop) 
 plt.title("Population of Montreal")
 plt.show()

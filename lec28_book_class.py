@@ -37,7 +37,7 @@ class Book:
         'Sora & Haena @ $12.99'
         """
         
-        return self.title + " @ $" + str(self.price)
+        return self.title + " @ $" + str(self.price) + self.genre
     
     
     def on_sale(self):
