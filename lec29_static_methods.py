@@ -18,3 +18,8 @@ b1 = Book("Matilda", "Roald Dahl")
 b2 = Book("The BFG", "Roald Dahl")
 books = [b1, b2]
 print(Book.same_author(books)) # True
+
+l = [b1, b2]
+l2 = [b2, b2]
+l2 = l + l2
+print(l2)

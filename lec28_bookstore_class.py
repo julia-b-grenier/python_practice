@@ -100,8 +100,10 @@ def create_bookstore(name, list_info_books):
     l_books = []
     
     for info_book in list_info_books:
-        l_infos = info_book.split("\t")
+        #l_infos = info_book.split("\t")
+        l_infos = info_book.split(", ")
         isbn, title, author, genre, price = l_infos
+        price = price.replace('$', '')
         l_books.append(Book(int(isbn),title,author,genre,float(price)))
         
     return Bookstore(name, l_books)
@@ -121,4 +123,4 @@ def create_bookstore_from_file(filename):
     content = fobj.read().strip().split("\n")
     fobj.close()
     
-    return create_bookstore(name,content)
+    return create_bookstore(name, content)
