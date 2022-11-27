@@ -71,3 +71,7 @@ print(len(my_dict))
 # dict.fromkeys(iterable, value = None)
 iterable_object = "Julia"
 print(dict.fromkeys(iterable_object, None))
+
+
+print(my_dict.keys())
+print(dict.fromkeys(my_dict.keys()))

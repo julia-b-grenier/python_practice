@@ -1,0 +1,7 @@
+Giant Panda,Asia,Mammal
+Hippo,Africa,Mammal
+Kookaburra,Oceania,Bird
+Cape cobra,Africa,Reptile
+Toucan,South America,Bird
+Platypus,Oceania,Mammal
+Snapping Turtle,North America,Reptile
